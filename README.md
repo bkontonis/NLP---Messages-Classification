@@ -2,7 +2,18 @@
 
 In this project I built a model for an API that classifies disaster messages. The datasets provided by [Figure Eight](https://www.figure-eight.com) contain real messages sent during disaster events and their respective categories. The task was to train the supervised ML classifier to automate categorization of the new messages so that different disaster relief agencies would receive only relevant ones.
 
-## Instructions:
+This Project is part of Data Science Nanodegree Program by Udacity in collaboration with [Figure Eight](https://www.figure-eight.com).
+The initial dataset provided by Figure Eight contain real messages sent during disaster events and their respective categories. 
+The aim of the project is to build a Natural Language Processing tool that categorize messages.
+
+The Project is divided in the following Sections:
+  1. Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper databse structure
+  2. Machine Learning Pipeline to train a model able to classify text message in categories
+  3. Web App to show model results in real time. 
+
+
+
+## Instructions - Executing Program:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -14,6 +25,14 @@ In this project I built a model for an API that classifies disaster messages. Th
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+
+## Dependencies
+* Python 3.5+ (I used Python 3.7.4)
+* Machine Learning Libraries: NumPy, Pandas, Sciki-Learn
+* Natural Language Process Libraries: NLTK
+* SQLlite Database Libraqries: SQLalchemy
+* Web App and Data Visualization: Flask, Plotly
 
 
 ## Results
@@ -41,5 +60,27 @@ In this project I built a model for an API that classifies disaster messages. Th
 * Created data visualizations in the app using Plotly
 
 
+## Screendhots
+
+  1. The main page shows some graphs about training dataset, provided by Figure Eight!
+  [Main Page](screenshots/main_screen.png)
+  2. This is an example of a message you can type to test Machine Learning model performance![Sample Input](screenshots/example_message.png)
+  3. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green!
+  [Sample Output](screenshots/result.png)
+
+
+## Authors
+
+* Vasilis Kontonis
+ - [LinkedIn](https://www.linkedin.com/in/vasilis-kontonis-baa281b4/)
+ - [GitHub](https://github.com/bkontonis)
+
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 ## Acknowledgements
-This project is part of [Udacity Data Science Nanodegree Programm](https://www.udacity.com/course/data-scientist-nanodegree--nd025). 
+* This project is part of [Udacity Data Science Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
+* [Figure Eight](https://www.figure-eight.com/) for providing messages dataset to train my model
+
