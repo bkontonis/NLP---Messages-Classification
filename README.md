@@ -1,7 +1,5 @@
 # Disaster Response Pipeline Project
 
-In this project I built a model for an API that classifies disaster messages. The datasets provided by [Figure Eight](https://www.figure-eight.com) contain real messages sent during disaster events and their respective categories. The task was to train the supervised ML classifier to automate categorization of the new messages so that different disaster relief agencies would receive only relevant ones.
-
 This Project is part of Data Science Nanodegree Program by Udacity in collaboration with [Figure Eight](https://www.figure-eight.com).
 The initial dataset provided by Figure Eight contain real messages sent during disaster events and their respective categories. 
 The aim of the project is to build a Natural Language Processing tool that categorize messages.
