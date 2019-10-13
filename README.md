@@ -60,11 +60,9 @@ The Project is divided in the following Sections:
 
 ## Screendhots
 
-  1. The main page shows some graphs about training dataset, provided by Figure Eight!
-  [Main Page](screenshots/main_screen.png)
+  1. The main page shows some graphs about training dataset, provided by Figure Eight![Main Page](screenshots/main_screen.png)
   2. This is an example of a message you can type to test Machine Learning model performance![Sample Input](screenshots/example_message.png)
-  3. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green!
-  [Sample Output](screenshots/result.png)
+  3. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green![Sample Output](screenshots/result.png)
 
 
 ## Authors
