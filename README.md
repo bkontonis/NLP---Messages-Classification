@@ -69,7 +69,7 @@ The Project is divided in the following Sections:
 
 ## Authors
 
-* Vasilis Kontonis
+Vasilis Kontonis
  - [LinkedIn](https://www.linkedin.com/in/vasilis-kontonis-baa281b4/)
  - [GitHub](https://github.com/bkontonis)
 
